@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nước Mắm Truyền Thống - Tinh Hoa Ẩm Thực Việt</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#B8860B',secondary:'#D2B48C'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .hero-section {
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 40%, rgba(255, 255, 255, 0.7) 60%, rgba(255, 255, 255, 0.3) 80%, rgba(255, 255, 255, 0) 100%), url('https://readdy.ai/api/search-image?query=Traditional%20Vietnamese%20fish%20sauce%20production%20with%20wooden%20barrels%20on%20a%20beautiful%20coastal%20scene%2C%20fishing%20boats%20in%20the%20background%2C%20sunrise%2C%20golden%20light%2C%20high%20quality%20professional%20photography%2C%20atmospheric%2C%20serene%20coastal%20village&width=1600&height=800&seq=12345&orientation=landscape');
+            background-size: cover;
+            background-position: center right;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center">
+                <a href="#" class="text-3xl font-['Pacifico'] text-primary">logo</a>
+            </div>
+            
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#" class="font-medium text-gray-800 hover:text-primary transition-colors">Trang chủ</a>
+                <a href="#" class="font-medium text-gray-800 hover:text-primary transition-colors">Sản phẩm</a>
+                <a href="#" class="font-medium text-gray-800 hover:text-primary transition-colors">Về chúng tôi</a>
+                <a href="#" class="font-medium text-gray-800 hover:text-primary transition-colors">Liên hệ</a>
+            </nav>
+            
+            <div class="flex items-center space-x-4">
+                <div class="relative">
+                    <button class="w-10 h-10 flex items-center justify-center text-gray-700 hover:text-primary transition-colors">
+                        <i class="ri-search-line ri-xl"></i>
+                    </button>
+                </div>
+                <div class="relative">
+                    <button class="w-10 h-10 flex items-center justify-center text-gray-700 hover:text-primary transition-colors">
+                        <i class="ri-shopping-cart-line ri-xl"></i>
+                        <span class="absolute -top-1 -right-1 bg-primary text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">3</span>
+                    </button>
+                </div>
+                <button class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700">
+                    <i class="ri-menu-line ri-xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero-section w-full min-h-[600px] flex items-center">
+        <div class="container mx-auto px-4 py-16 w-full">
+            <div class="max-w-lg">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Tinh Hoa Nước Mắm Truyền Thống Việt Nam</h1>
+                <p class="text-lg text-gray-700 mb-8">Hương vị đậm đà từ biển cả, được ủ chín tự nhiên theo bí quyết gia truyền hàng trăm năm của làng nghề Phú Quốc.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-primary text-white px-8 py-3 font-medium !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap">Khám phá sản phẩm</button>
+                    <button class="border border-primary text-primary px-8 py-3 font-medium !rounded-button hover:bg-primary hover:bg-opacity-10 transition-colors whitespace-nowrap">Tìm hiểu thêm</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Di Sản Ẩm Thực Việt Nam</h2>
+                <p class="text-gray-700">Nước mắm của chúng tôi được sản xuất theo phương pháp truyền thống từ thế kỷ 19, với nguyên liệu cá cơm tươi ngon được đánh bắt từ vùng biển Phú Quốc trong lành.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="https://readdy.ai/api/search-image?query=Traditional%20Vietnamese%20fish%20sauce%20production%20process%2C%20wooden%20barrels%20in%20a%20row%2C%20workers%20in%20traditional%20clothing%2C%20natural%20sunlight%20filtering%20through%2C%20detailed%20craftsmanship%2C%20authentic%20Vietnamese%20coastal%20village%20setting%2C%20professional%20documentary%20photography&width=600&height=450&seq=12346&orientation=landscape" alt="Quy trình sản xuất nước mắm truyền thống" class="rounded-lg shadow-lg w-full h-auto object-cover object-top">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">Bí Quyết Gia Truyền</h3>
+                    <p class="text-gray-700 mb-6">Mỗi giọt nước mắm là kết tinh của quá trình ủ chín tự nhiên kéo dài 12-24 tháng trong thùng gỗ, không sử dụng chất bảo quản hay phụ gia hóa học.</p>
+                    
+                    <div class="flex flex-col gap-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-4">
+                                <i class="ri-award-line ri-lg text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-900">Chứng nhận OCOP 5 sao</h4>
+                                <p class="text-sm text-gray-600">Sản phẩm đạt chuẩn quốc gia</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-4">
+                                <i class="ri-medal-line ri-lg text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-900">Giải thưởng Sản phẩm Vàng</h4>
+                                <p class="text-sm text-gray-600">Hội chợ Ẩm thực Đông Nam Á 2024</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-4">
+                                <i class="ri-shield-check-line ri-lg text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-900">Chứng nhận An toàn Thực phẩm</h4>
+                                <p class="text-sm text-gray-600">Đạt tiêu chuẩn ISO 22000:2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Sản Phẩm Nổi Bật</h2>
+                <p class="text-gray-700">Khám phá bộ sưu tập nước mắm truyền thống với nhiều phân khúc đáp ứng nhu cầu đa dạng của khách hàng.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:shadow-lg">
+                    <div class="h-64 overflow-hidden">
+                        <img src="https://readdy.ai/api/search-image?query=Premium%20Vietnamese%20fish%20sauce%20bottle%20with%20elegant%20packaging%2C%20wooden%20cap%2C%20clear%20glass%20showing%20amber%20liquid%2C%20professional%20product%20photography%20on%20white%20background%2C%20minimalist%2C%20high-end&width=400&height=400&seq=12347&orientation=squarish" alt="Nước mắm truyền thống cá cơm Phú Quốc" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Nước Mắm Cá Cơm Phú Quốc</h3>
+                        <div class="flex items-center mb-3">
+                            <div class="flex text-yellow-400">
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                            </div>
+                            <span class="text-sm text-gray-500 ml-2">(128)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="text-lg font-bold text-gray-900">185.000₫</span>
+                                <span class="text-sm text-gray-500 line-through ml-2">220.000₫</span>
+                            </div>
+                            <button class="w-10 h-10 flex items-center justify-center bg-primary text-white !rounded-button hover:bg-opacity-90 transition-colors">
+                                <i class="ri-shopping-cart-line"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:shadow-lg">
+                    <div class="h-64 overflow-hidden">
+                        <img src="https://readdy.ai/api/search-image?query=Luxury%20Vietnamese%20fish%20sauce%20gift%20set%20with%20multiple%20bottles%2C%20traditional%20design%20with%20modern%20elements%2C%20wooden%20box%20packaging%2C%20professional%20product%20photography%20on%20white%20background%2C%20elegant&width=400&height=400&seq=12348&orientation=squarish" alt="Nước mắm truyền thống cá cơm Phú Quốc - Hộp quà tặng" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Hộp Quà Tặng Đặc Biệt</h3>
+                        <div class="flex items-center mb-3">
+                            <div class="flex text-yellow-400">
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-half-fill ri-sm"></i>
+                            </div>
+                            <span class="text-sm text-gray-500 ml-2">(86)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="text-lg font-bold text-gray-900">450.000₫</span>
+                                <span class="text-sm text-gray-500 line-through ml-2">520.000₫</span>
+                            </div>
+                            <button class="w-10 h-10 flex items-center justify-center bg-primary text-white !rounded-button hover:bg-opacity-90 transition-colors">
+                                <i class="ri-shopping-cart-line"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:shadow-lg">
+                    <div class="h-64 overflow-hidden">
+                        <img src="https://readdy.ai/api/search-image?query=Organic%20Vietnamese%20fish%20sauce%20bottle%20with%20eco-friendly%20packaging%2C%20natural%20materials%2C%20clear%20glass%20showing%20rich%20amber%20liquid%2C%20professional%20product%20photography%20on%20white%20background%2C%20organic%20certification%20visible&width=400&height=400&seq=12349&orientation=squarish" alt="Nước mắm hữu cơ cá cơm Phú Quốc" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Nước Mắm Hữu Cơ Cao Cấp</h3>
+                        <div class="flex items-center mb-3">
+                            <div class="flex text-yellow-400">
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                            </div>
+                            <span class="text-sm text-gray-500 ml-2">(204)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="text-lg font-bold text-gray-900">265.000₫</span>
+                                <span class="text-sm text-gray-500 line-through ml-2">310.000₫</span>
+                            </div>
+                            <button class="w-10 h-10 flex items-center justify-center bg-primary text-white !rounded-button hover:bg-opacity-90 transition-colors">
+                                <i class="ri-shopping-cart-line"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:shadow-lg">
+                    <div class="h-64 overflow-hidden">
+                        <img src="https://readdy.ai/api/search-image?query=Small%20Vietnamese%20fish%20sauce%20bottle%20with%20modern%20design%2C%20travel%20size%2C%20clear%20glass%20showing%20amber%20liquid%2C%20professional%20product%20photography%20on%20white%20background%2C%20convenient%20packaging&width=400&height=400&seq=12350&orientation=squarish" alt="Nước mắm cá cơm Phú Quốc - Chai nhỏ" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Nước Mắm Chai Nhỏ Tiện Lợi</h3>
+                        <div class="flex items-center mb-3">
+                            <div class="flex text-yellow-400">
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-fill ri-sm"></i>
+                                <i class="ri-star-line ri-sm"></i>
+                            </div>
+                            <span class="text-sm text-gray-500 ml-2">(95)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="text-lg font-bold text-gray-900">75.000₫</span>
+                                <span class="text-sm text-gray-500 line-through ml-2">90.000₫</span>
+                            </div>
+                            <button class="w-10 h-10 flex items-center justify-center bg-primary text-white !rounded-button hover:bg-opacity-90 transition-colors">
+                                <i class="ri-shopping-cart-line"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <button class="bg-white border border-primary text-primary px-8 py-3 font-medium !rounded-button hover:bg-primary hover:bg-opacity-10 transition-colors whitespace-nowrap">Xem tất cả sản phẩm</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unique Selling Points -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Điểm Khác Biệt Của Chúng Tôi</h2>
+                <p class="text-gray-700">Tại sao nước mắm của chúng tôi được hàng triệu gia đình Việt Nam tin dùng suốt nhiều thập kỷ qua?</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- USP 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mx-auto mb-6">
+                        <i class="ri-leaf-line ri-xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Nguyên Liệu Tự Nhiên</h3>
+                    <p class="text-gray-700">100% cá cơm tươi đánh bắt từ vùng biển Phú Quốc, không sử dụng phụ gia hóa học hay chất bảo quản.</p>
+                </div>
+                
+                <!-- USP 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mx-auto mb-6">
+                        <i class="ri-history-line ri-xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Công Nghệ Truyền Thống</h3>
+                    <p class="text-gray-700">Quy trình ủ chín tự nhiên trong thùng gỗ từ 12-24 tháng theo bí quyết gia truyền hàng trăm năm.</p>
+                </div>
+                
+                <!-- USP 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mx-auto mb-6">
+                        <i class="ri-award-line ri-xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Chất Lượng Đảm Bảo</h3>
+                    <p class="text-gray-700">Đạt tiêu chuẩn an toàn thực phẩm quốc tế, được kiểm nghiệm nghiêm ngặt trước khi đến tay người tiêu dùng.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Story -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="https://readdy.ai/api/search-image?query=Traditional%20Vietnamese%20fishing%20village%20with%20boats%2C%20elderly%20craftsmen%20making%20fish%20sauce%2C%20wooden%20barrels%2C%20coastal%20scenery%2C%20authentic%20Vietnamese%20culture%2C%20documentary%20style%20photography%2C%20nostalgic&width=600&height=450&seq=12351&orientation=landscape" alt="Làng nghề nước mắm truyền thống" class="rounded-lg shadow-lg w-full h-auto object-cover object-top">
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6">Câu Chuyện Thương Hiệu</h2>
+                    <p class="text-gray-700 mb-4">Bắt đầu từ một làng chài nhỏ tại Phú Quốc từ năm 1950, gia đình chúng tôi đã gìn giữ và phát triển nghề làm nước mắm truyền thống qua ba thế hệ.</p>
+                    <p class="text-gray-700 mb-4">Mỗi thùng gỗ ủ cá cơm đều được chăm sóc cẩn thận bởi những nghệ nhân có kinh nghiệm hàng chục năm trong nghề. Chúng tôi tự hào khi vẫn giữ được phương pháp sản xuất truyền thống, không sử dụng máy móc công nghiệp trong quá trình chế biến.</p>
+                    <p class="text-gray-700 mb-6">Ngày nay, sản phẩm của chúng tôi không chỉ được yêu thích tại Việt Nam mà còn xuất khẩu đến nhiều quốc gia trên thế giới, mang hương vị đậm đà của biển cả Việt Nam đến với bạn bè quốc tế.</p>
+                    <button class="flex items-center text-primary font-medium hover:underline">
+                        <span>Xem video về quy trình sản xuất</span>
+                        <i class="ri-play-circle-line ri-lg ml-2"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Khách Hàng Nói Gì Về Chúng Tôi</h2>
+                <p class="text-gray-700">Hàng ngàn khách hàng đã tin tưởng và sử dụng sản phẩm của chúng tôi. Dưới đây là một số đánh giá từ họ.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20middle-aged%20Vietnamese%20woman%20with%20short%20hair%2C%20friendly%20smile%2C%20casual%20elegant%20attire%2C%20neutral%20background%2C%20professional%20headshot&width=100&height=100&seq=12352&orientation=squarish" alt="Nguyễn Thị Minh Hương" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-900">Nguyễn Thị Minh Hương</h4>
+                            <p class="text-sm text-gray-600">Đầu bếp nhà hàng</p>
+                        </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-3">
+                        <i class="ri-star-fill ri-sm"></i>
+                        <i class="ri-star-fill ri-sm"></i>
+                        <i class="ri-star-fill ri-sm"></i>
+                        <i class="ri-star-fill ri-sm"></i>
+                        <i class="ri-star-fill ri-sm"></i>
+                    </div>
+                    <p class="text-gray-700">"Tôi đã sử dụng nhiều loại nước mắm khác nhau trong suốt 20 năm làm đầu bếp, nhưng chưa có loại nào mang lại hương vị đậm đà và thơm ngon như sản phẩm này. Đây là bí quyết làm nên những món ăn đặc sắc tại nhà hàng của tôi."</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20an%20elderly%20Vietnamese%20man%20with%20glasses%2C%20warm%20smile%2C%20traditional%20Vietnamese%20clothing%2C%20neutral%20background%2C%20professional%20headshot&width=100&height=100&seq=12353&orientation=squarish" alt="Trần Văn Thành" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-900">Trần Văn Thành</h4>
+                            <p class="text-sm text-gray-600">Người sành ẩm thực</p>
+                        </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-3">
+                        <i class="ri-star-fill ri-sm"></i>
+                        <i class="ri-star-fill ri-sm"></i>
+                        <i class="ri-star-fill ri-sm"></i>
+                        <i class="ri-star-fill ri-sm"></i>
+                        <i class="ri-star-fill ri-sm"></i>
+                    </div>
+                    <p class="text-gray-700">"Là một người sành ăn, tôi rất kỹ tính trong việc lựa chọn gia vị. Nước mắm này có độ đạm cao, màu sắc đẹp tự nhiên và mùi thơm đặc trưng. Đây là loại nước mắm truyền thống đúng nghĩa mà hiếm thấy trên thị trường hiện nay."</p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20young%20Vietnamese%20woman%20with%20long%20hair%2C%20friendly%20smile%2C%20modern%20casual%20attire%2C%20neutral%20background%2C%20professional%20headshot&width=100&height=100&seq=12354&orientation=squarish" alt="Lê Thị Thanh Hà" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-900">Lê Thị Thanh Hà</h4>
+                            <p class="text-sm text-gray-600">Nội trợ</p>
+                        </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-3">
+                        <i class="ri-star-fill ri-sm"></i>
+                        <i class="ri-star-fill ri-sm"></i>
+                        <i class="ri-star-fill ri-sm"></i>
+                        <i class="ri-star-fill ri-sm"></i>
+                        <i class="ri-star-half-fill ri-sm"></i>
+                    </div>
+                    <p class="text-gray-700">"Từ ngày sử dụng nước mắm này, các món ăn trong gia đình tôi trở nên ngon hơn hẳn. Chồng và các con tôi đều khen ngợi. Tôi đặc biệt yên tâm về chất lượng và độ an toàn khi sử dụng cho gia đình, nhất là khi có trẻ nhỏ."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-primary bg-opacity-10">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">Trải Nghiệm Hương Vị Đậm Đà Của Biển Cả</h2>
+            <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">Đặt hàng ngay hôm nay để nhận ưu đãi đặc biệt: Giảm 15% cho đơn hàng đầu tiên và miễn phí vận chuyển toàn quốc.</p>
+            <button class="bg-primary text-white px-8 py-3 font-medium !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap">Mua ngay</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <a href="#" class="text-3xl font-['Pacifico'] text-white mb-6 block">logo</a>
+                    <p class="text-gray-400 mb-6">Thương hiệu nước mắm truyền thống hàng đầu Việt Nam, với hơn 70 năm kinh nghiệm và bí quyết gia truyền.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-tiktok-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Liên Kết Nhanh</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Trang chủ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Sản phẩm</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Về chúng tôi</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Quy trình sản xuất</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Chứng nhận chất lượng</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Liên hệ</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Thông Tin Liên Hệ</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <div class="w-5 h-5 flex items-center justify-center mt-1 mr-3">
+                                <i class="ri-map-pin-line text-primary"></i>
+                            </div>
+                            <span class="text-gray-400">Làng nghề nước mắm truyền thống, Đường Dương Đông, Phú Quốc, Kiên Giang</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3">
+                                <i class="ri-phone-line text-primary"></i>
+                            </div>
+                            <span class="text-gray-400">+84 297 3846 728</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3">
+                                <i class="ri-mail-line text-primary"></i>
+                            </div>
+                            <span class="text-gray-400">info@nuocmamtruyenthong.vn</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3">
+                                <i class="ri-time-line text-primary"></i>
+                            </div>
+                            <span class="text-gray-400">Thứ 2 - Thứ 7: 8:00 - 17:00</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Đăng Ký Nhận Tin</h4>
+                    <p class="text-gray-400 mb-4">Đăng ký để nhận thông tin khuyến mãi và sản phẩm mới nhất từ chúng tôi.</p>
+                    <form class="mb-4">
+                        <div class="flex">
+                            <input type="email" placeholder="Email của bạn" class="bg-gray-800 text-white px-4 py-2 rounded-l-button w-full border-none focus:outline-none focus:ring-2 focus:ring-primary">
+                            <button type="submit" class="bg-primary text-white px-4 py-2 !rounded-r-button hover:bg-opacity-90 transition-colors whitespace-nowrap">Đăng ký</button>
+                        </div>
+                    </form>
+                    <div class="flex items-center space-x-3">
+                        <span class="text-gray-400">Thanh toán:</span>
+                        <div class="flex space-x-2">
+                            <i class="ri-visa-fill ri-lg"></i>
+                            <i class="ri-mastercard-fill ri-lg"></i>
+                            <i class="ri-paypal-fill ri-lg"></i>
+                            <i class="ri-bank-card-fill ri-lg"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Nước Mắm Truyền Thống. Tất cả các quyền được bảo lưu.</p>
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-gray-400 text-sm hover:text-white transition-colors">Chính sách bảo mật</a>
+                        <a href="#" class="text-gray-400 text-sm hover:text-white transition-colors">Điều khoản sử dụng</a>
+                        <a href="#" class="text-gray-400 text-sm hover:text-white transition-colors">Chính sách vận chuyển</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script id="headerScript">
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchButton = document.querySelector('button i.ri-search-line').parentElement;
+            const cartButton = document.querySelector('button i.ri-shopping-cart-line').parentElement;
+            const menuButton = document.querySelector('button i.ri-menu-line').parentElement;
+            
+            searchButton.addEventListener('click', function() {
+                alert('Tính năng tìm kiếm đang được phát triển');
+            });
+            
+            cartButton.addEventListener('click', function() {
+                alert('Giỏ hàng của bạn hiện có 3 sản phẩm');
+            });
+            
+            menuButton.addEventListener('click', function() {
+                alert('Menu điện thoại đang được phát triển');
+            });
+        });
+    </script>
+
+    <script id="productScript">
+        document.addEventListener('DOMContentLoaded', function() {
+            const addToCartButtons = document.querySelectorAll('.bg-primary i.ri-shopping-cart-line');
+            
+            addToCartButtons.forEach(function(icon) {
+                const button = icon.parentElement;
+                button.addEventListener('click', function() {
+                    alert('Đã thêm sản phẩm vào giỏ hàng!');
+                });
+            });
+            
+            const viewAllButton = document.querySelector('button.border-primary');
+            if (viewAllButton) {
+                viewAllButton.addEventListener('click', function() {
+                    alert('Đang chuyển đến trang sản phẩm...');
+                });
+            }
+        });
+    </script>
+
+    <script id="brandStoryScript">
+        document.addEventListener('DOMContentLoaded', function() {
+            const videoButton = document.querySelector('button.text-primary');
+            
+            if (videoButton) {
+                videoButton.addEventListener('click', function() {
+                    alert('Video đang được tải...');
+                });
+            }
+        });
+    </script>
+
+    <script id="newsletterScript">
+        document.addEventListener('DOMContentLoaded', function() {
+            const newsletterForm = document.querySelector('footer form');
+            
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const emailInput = this.querySelector('input[type="email"]');
+                    
+                    if (emailInput.value.trim() === '') {
+                        alert('Vui lòng nhập địa chỉ email của bạn');
+                    } else {
+                        alert('Cảm ơn bạn đã đăng ký nhận tin!');
+                        emailInput.value = '';
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
